@@ -12,10 +12,4 @@ hist(tidydata$Global_active_power, main = "Global Active Power", col = "red",xla
 dev.copy(png,file="plot1.png")
 dev.off()
 
-# plot 2
 
-plot(tidydata$t,tidydata$Global_active_power, type = "l" ,ylab = "Global Active Power (kilowatts)",xlab = "")
-dev.copy(png,file="plot2.png")
-dev.off()
-
-# plot 3
